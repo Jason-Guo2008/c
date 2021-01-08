@@ -9,7 +9,7 @@ int main(){
 	bool a = true;
 	while(f < e){
 		if(s[f] != s[e]){
-			cout << "NO";
+			cout << "No";
 			a = false;
 			break;
 		}
@@ -17,7 +17,7 @@ int main(){
 		e--;
 	}
 	if(a){
-		cout << "YES";
+		cout << "Yes";
 	}
 	return 0;
 }
